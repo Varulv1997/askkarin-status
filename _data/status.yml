@@ -71,7 +71,7 @@ groups:
         icon: /img/github.svg
   apis:
     name: APIs Used
-    icon: /img/font-awesome-svg/brands/microsoft.svg
+    icon: /img/apis.svg
     components:
       googlemaps:
         name: Google Maps API
