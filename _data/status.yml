@@ -37,13 +37,13 @@ groups:
         icon: /img/aws-svg/AWS-Amplify.svg
       rds:
         name: Firewall
-        icon: /img/aws-svg/Amazon-RDS.svg
+        icon: /img/aws-svg/AWS-WAF.svg
       cache:
         name: Database
-        icon: /img/aws-svg/Amazon-ElastiCache.svg
+        icon: /img/aws-svg/AWS-Database-Migration-Service.svg
       es:
         name: Reverse Proxy
-        icon: /img/aws-svg/Amazon-Elasticsearch-Service.svg
+        icon: /img/aws-svg/Amazon-VPC.svg
       cognito:
         name: Cognito
         icon: /img/aws-svg/Amazon-Cognito.svg
@@ -55,7 +55,7 @@ groups:
         name: Java JRE
         icon: /img/gcp-svg/Compute%20Engine.svg
       run:
-        name: Algolia
+        name: Ubuntu system
         icon: /img/gcp-svg/Cloud%20Run.svg
       spanner:
         name: Cloud Spanner
