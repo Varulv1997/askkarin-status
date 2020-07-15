@@ -24,29 +24,29 @@ components:
     url: https://ask-karin.com
   github-pages:
     name: Linode (Frankfurt)
-    icon: /img/linode-icon.svg
+    icon: /img/linode.svg
     url: http://172.105.91.202/status/
 
 groups:
   aws:
     name: Apache Server
-    icon: /img/aws-svg/General.svg
+    icon: /img/apache.svg
     components:
       fargate:
         name: NodeJS Server
-        icon: /img/aws-svg/AWS-Amplify.svg
+        icon: /img/nodejs.svg
       rds:
         name: Firewall
-        icon: /img/aws-svg/AWS-WAF.svg
+        icon: /img/firewall.svg
       cache:
         name: Database
-        icon: /img/aws-svg/AWS-Database-Migration-Service.svg
+        icon: /img/database.svg
       es:
         name: Reverse Proxy
-        icon: /img/aws-svg/Amazon-VPC.svg
+        icon: /img/reverseproxy.svg
       cognito:
         name: Varnish Cache
-        icon: /img/aws-svg/Amazon-Appstream-2.0.svg
+        icon: /img/varnish.svg
   gcp:
     name: Runtime software
     icon: /img/font-awesome-svg/brands/google.svg
@@ -58,11 +58,11 @@ groups:
         name: Ubuntu system
         icon: /img/gcp-svg/Cloud%20Run.svg
       spanner:
-        name: Cloud Spanner
-        icon: /img/gcp-svg/Cloud%20Spanner.svg
+        name: Python (Latest)
+        icon: /img/python.svg
       cdn:
-        name: Cloud CDN
-        icon: /img/gcp-svg/Cloud%20CDN.svg
+        name: Ruby (Latest)
+        icon: /img/ruby.svg
   azure:
     name: APIs Used
     icon: /img/font-awesome-svg/brands/microsoft.svg
@@ -74,13 +74,13 @@ groups:
         name: Openweathermap API
         icon: /img/azure-svg/Azure%20Database%20(Generic).svg
       database-mysql:
-        name: Paypal API
+        name: Payment gateways API
         icon: /img/azure-svg/Azure%20Database%20for%20MySQL%20servers.svg
       function-apps:
-        name: Stripe API
+        name: Algolia API
         icon: /img/azure-svg/Function%20Apps.svg
       general-storage:
-        name: Uptime Robot API
+        name: Status Tracker API
         icon: /img/azure-svg/General%20Storage.svg
 
 incidents:
