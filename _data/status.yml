@@ -49,20 +49,26 @@ groups:
         icon: /img/varnish.svg
   gcp:
     name: Runtime software
-    icon: /img/font-awesome-svg/brands/google.svg
+    icon: /img/runtime.svg
     components:
       engine:
         name: Java JRE
-        icon: /img/gcp-svg/Compute%20Engine.svg
+        icon: /img/java.svg
       run:
         name: Ubuntu system
-        icon: /img/gcp-svg/Cloud%20Run.svg
+        icon: /img/ubuntu.svg
       spanner:
         name: Python (Latest)
         icon: /img/python.svg
       cdn:
         name: Ruby (Latest)
         icon: /img/ruby.svg
+      docker:
+        name: Docker (Latest)
+        icon: /img/docker.svg
+      github:
+        name: Github Repository (Up to date)
+        icon: /img/github.svg
   azure:
     name: APIs Used
     icon: /img/font-awesome-svg/brands/microsoft.svg
