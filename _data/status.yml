@@ -20,7 +20,7 @@ levels:
 components:
   status-page:
     name: Ask Karin
-    icon: /img/font-awesome-svg/solid/stream.svg
+    icon: /img/favicon.png
     url: https://ask-karin.com
   github-pages:
     name: Linode (Frankfurt)
@@ -48,14 +48,14 @@ groups:
         name: Cognito
         icon: /img/aws-svg/Amazon-Cognito.svg
   gcp:
-    name: Google Cloud Platform
+    name: Runtime software
     icon: /img/font-awesome-svg/brands/google.svg
     components:
       engine:
-        name: Compute Engine
+        name: Java JRE
         icon: /img/gcp-svg/Compute%20Engine.svg
       run:
-        name: Cloud Run
+        name: Algolia
         icon: /img/gcp-svg/Cloud%20Run.svg
       spanner:
         name: Cloud Spanner
@@ -68,19 +68,19 @@ groups:
     icon: /img/font-awesome-svg/brands/microsoft.svg
     components:
       active-directory:
-        name: Active Directory
+        name: Google Maps API
         icon: /img/azure-svg/Active%20Directory.svg
       database:
-        name: Azure Database
+        name: Openweathermap API
         icon: /img/azure-svg/Azure%20Database%20(Generic).svg
       database-mysql:
-        name: Azure Database for MySQL
+        name: Paypal API
         icon: /img/azure-svg/Azure%20Database%20for%20MySQL%20servers.svg
       function-apps:
-        name: Azure Function Apps
+        name: Stripe API
         icon: /img/azure-svg/Function%20Apps.svg
       general-storage:
-        name: Azure General Storage
+        name: Uptime Robot API
         icon: /img/azure-svg/General%20Storage.svg
 
 incidents:
