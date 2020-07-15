@@ -24,13 +24,13 @@ components:
     url: https://ask-karin.com
   github-pages:
     name: Linode (Frankfurt)
-    icon: /img/font-awesome-svg/brands/linode-icon.svg
+    icon: /img/linode-icon.svg
     url: http://172.105.91.202/status/
 
 groups:
   aws:
     name: Apache Server
-    icon: /img/font-awesome-svg/brands/aws.svg
+    icon: /img/aws-svg/General.svg
     components:
       fargate:
         name: Amplify
