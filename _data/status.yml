@@ -29,7 +29,7 @@ components:
   status-page:
     name: Status-Page
     icon: /img/font-awesome-svg/solid/stream.svg
-    url: https://github.com/someimportantcompany/status-page
+    url: https://varulv1997.github.io/askkarin-status
   github-pages:
     name: GitHub Pages
     icon: /img/font-awesome-svg/brands/github.svg
