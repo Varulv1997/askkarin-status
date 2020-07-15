@@ -63,9 +63,9 @@ groups:
       ruby:
         name: Ruby (Latest)
         icon: /img/ruby.svg
-      docker:
-        name: Docker Env (Latest)
-        icon: /img/docker.svg
+      nginx:
+        name: NGINX
+        icon: /img/nginx.svg
       github:
         name: Github Repository (Up to date)
         icon: /img/github.svg
