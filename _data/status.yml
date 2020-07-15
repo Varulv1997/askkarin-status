@@ -29,30 +29,30 @@ components:
 
 groups:
   apache:
-    name: Apache Server
+    name: Apache runtime server
     icon: /img/apache.svg
     components:
       nodejs:
-        name: NodeJS Server
+        name: JavaScript runtime server
         icon: /img/nodejs.svg
       firewall:
         name: Firewall
         icon: /img/firewall.svg
       database:
-        name: Database
+        name: Database agent
         icon: /img/database.svg
       reverseproxy:
-        name: Reverse Proxy
+        name: Reverse proxy
         icon: /img/reverseproxy.svg
       varnish:
-        name: Varnish Cache
+        name: Varnish cache
         icon: /img/varnish.svg
   runtime:
     name: Runtime software
     icon: /img/runtime.svg
     components:
       java:
-        name: Java JRE
+        name: Java Runtime Environment
         icon: /img/java.svg
       ubuntu:
         name: Ubuntu system
@@ -66,8 +66,17 @@ groups:
       nginx:
         name: NGINX
         icon: /img/nginx.svg
+      documentation:
+        name: Documentation
+        icon: /img/documentation.svg        
+      git:
+        name: Git (Latest)
+        icon: /img/git.svg
+      gitlab:
+        name: Gitlab backup repository (up to date)
+        icon: /img/gitlab.svg        
       github:
-        name: Github Repository (Up to date)
+        name: Github repository (up to date)
         icon: /img/github.svg
   apis:
     name: APIs Used
