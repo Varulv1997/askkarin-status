@@ -1,7 +1,6 @@
 {%- assign defaultLevel = site.data.status.levels | first %}
 {%- assign defaultLabel = defaultLevel[1].label | default: defaultLevel[0] | capitalize %}
 {%- assign defaultColor = defaultLevel[1].color | default: '#28A745' %}
-
 {%- if site.data.status.components -%}
 <ul class="list-group my-5">
   {% for c in site.data.status.components -%}
@@ -36,7 +35,6 @@
   {%- endfor %}
 </ul>
 {%- endif -%}
-
 {%- if site.data.status.groups -%}
 {%- for g in site.data.status.groups -%}
 {%- assign group = g[1] %}

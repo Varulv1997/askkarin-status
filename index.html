@@ -11,21 +11,17 @@ layout: default
   </p>
 </div>
 {%- endif -%}
-
 {%- include current-status.html -%}
 {%- include current-components.html -%}
-
 <section class="my-5 incidents">
   <h3>Past Incidents</h3>
   {%- assign grouped = site.data.status.incidents | group_by_exp:"row","row.timestamp | default: row.updates[0].timestamp | date: '%F'" -%}
-
   {%- assign dates = site.time | date: '%F' -%}
   {%- for n in (1..14) -%}
   {%- assign offset = n | times: 86400 -%}
   {%- capture dates -%}{{dates}},{{ site.time | date: '%s' | minus: offset | date: "%F" }}{%- endcapture -%}
   {%- endfor -%}
   {%- assign dates = dates | split: "," | uniq -%}
-
   {%- for day in dates -%}
   {%- assign group = grouped | where: "name", day | first -%}
   <div class="mt-4">
@@ -55,7 +51,6 @@ layout: default
   </div>
   {%- endfor -%}
 </section>
-
 <script type="text/javascript">
 (() => {
   function assert(value, err) {
