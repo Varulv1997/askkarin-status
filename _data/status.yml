@@ -36,13 +36,13 @@ groups:
         name: Amplify
         icon: /img/aws-svg/AWS-Amplify.svg
       rds:
-        name: Relational Database Service
+        name: Firewall
         icon: /img/aws-svg/Amazon-RDS.svg
       cache:
-        name: Elasticache
+        name: Database
         icon: /img/aws-svg/Amazon-ElastiCache.svg
       es:
-        name: Elasticsearch Service
+        name: Reverse Proxy
         icon: /img/aws-svg/Amazon-Elasticsearch-Service.svg
       cognito:
         name: Cognito
