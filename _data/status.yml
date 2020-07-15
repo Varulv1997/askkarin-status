@@ -78,7 +78,7 @@ groups:
         icon: /img/googlemaps.svg
       openweathermap:
         name: Openweathermap API
-        icon: /img/openweathermap.png
+        icon: /img/openweathermap.svg
       paymentgateways:
         name: Payment gateways API
         icon: /img/paymentgateways.svg
