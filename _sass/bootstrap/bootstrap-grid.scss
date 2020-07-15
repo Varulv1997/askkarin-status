@@ -1,21 +1,36 @@
+/*!
+ * Bootstrap Grid v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 @import "functions";
 @import "variables";
+
 @import "mixins/breakpoints";
 @import "mixins/container";
 @import "mixins/grid";
 @import "mixins/utilities";
+
 @import "vendor/rfs";
+
 @import "containers";
 @import "grid";
+
 @import "utilities";
+// Only use the utilities we need
+// stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-get-multiple(
   $utilities,
   (
@@ -53,4 +68,5 @@ $utilities: map-get-multiple(
     "padding-left",
   )
 );
+
 @import "utilities/api";
