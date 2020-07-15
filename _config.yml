@@ -1,4 +1,4 @@
-baseurl: '/status-page'
+baseurl: '/askkarin-status'
 exclude: [ 'examples', 'README.md' ]
 
 safe: true
