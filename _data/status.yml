@@ -84,31 +84,29 @@ groups:
         icon: /img/azure-svg/General%20Storage.svg
 
 incidents:
-  - title: '[Monzo] Payments from Nationwide may be delayed'
+  - title: '[Java] Runtime specific warnings'
     body: >
-      We’ve noticed that FPS payments to and from Nationwide are taking a while to
-      arrive due to a service disruption at Nationwide. Don’t worry, your payments should still
-      arrive eventually. Unless your payment has been returned to your account, please don't try
-      to send it again. We will continue to monitor.
+      We’ve noticed that the Java Runtime is throwing some exceptions and warnings, while we
+      investigate this issue, users might experience slow load times for the payment gateways.
     timestamp: 2020-02-28 19:09
-  - title: '[DigitalOcean] Event Processing Delays/Errors'
+  - title: '[Linode] Event Processing Delays/Errors'
     updates:
-      - timestamp: 2020-01-31 17:54
+      - timestamp: 2020-06-31 17:54
         body: >
-          **Resolved** - DevOps team has confirmed resolution of the issue affecting Linode
+          **Resolved** - The DevOps team has confirmed resolution of the issue affecting Linode
           nodes and event processing across all regions. All systems should be operating normally
           at this time. If you continue to experience any problems, then please open a ticket with
           our support team. We apologize for any inconvenience, and we appreciate your patience
           throughout this process.
-      - timestamp: 2020-01-31 17:07
+      - timestamp: 2020-05-31 17:07
         body: >
-          **Monitoring** - Monitoring team team has identified the cause of issues affecting the HTTPS version
+          **Monitoring** - The monitoring team team has identified the cause of issues affecting the HTTPS version
           and event processing, and functionality should be fully restored at this time. Tge
           team is now monitoring the situation for any further issues. We apologize for the
           inconvenience and will share an update once we have confirmed that the issue is resolved.
-      - timestamp: 2020-01-31 16:54
+      - timestamp: 2020-04-31 16:54
         body: >
-          **Investigating** - Monitoring team is investigating an issue affecting our Java SDK
+          **Investigating** - The monitoring team is investigating an issue affecting our Java SDK
           and event processing across all regions. During this time, users may experience
           intermittent errors or delays while working with resources, such as creating or destroying
           orders or reservations. We apologize for the inconvenience and will share an update once we have more
