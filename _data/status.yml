@@ -24,17 +24,17 @@ components:
     url: https://ask-karin.com
   github-pages:
     name: Linode (Frankfurt)
-    icon: /img/font-awesome-svg/brands/github.svg
+    icon: /img/font-awesome-svg/brands/linode-icon.svg
     url: http://172.105.91.202/status/
 
 groups:
   aws:
-    name: Amazon Web Services
+    name: Apache Server
     icon: /img/font-awesome-svg/brands/aws.svg
     components:
       fargate:
-        name: Fargate on ECS
-        icon: /img/aws-svg/AWS-Fargate.svg
+        name: Amplify
+        icon: /img/aws-svg/AWS-Amplify.svg
       rds:
         name: Relational Database Service
         icon: /img/aws-svg/Amazon-RDS.svg
@@ -64,7 +64,7 @@ groups:
         name: Cloud CDN
         icon: /img/gcp-svg/Cloud%20CDN.svg
   azure:
-    name: Microsoft Azure
+    name: APIs Used
     icon: /img/font-awesome-svg/brands/microsoft.svg
     components:
       active-directory:
