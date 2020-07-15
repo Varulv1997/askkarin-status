@@ -83,7 +83,7 @@ groups:
         name: Payment gateways API
         icon: /img/paymentgateways.svg
       algolia:
-        name: Algolia API
+        name: Search engline API
         icon: /img/algolia.svg
       statustracker:
         name: Status Tracker API
