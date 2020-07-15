@@ -1,25 +1,18 @@
-// Base class
 .tooltip {
   position: absolute;
   z-index: $zindex-tooltip;
   display: block;
   margin: $tooltip-margin;
-  // Our parent element can be arbitrary since tooltips are by default inserted as a sibling of their target element.
-  // So reset our font and text properties to avoid inheriting weird values.
   @include reset-text();
   @include font-size($tooltip-font-size);
-  // Allow breaking very long words so they don't overflow the tooltip's bounds
   word-wrap: break-word;
   opacity: 0;
-
   &.show { opacity: $tooltip-opacity; }
-
   .tooltip-arrow {
     position: absolute;
     display: block;
     width: $tooltip-arrow-width;
     height: $tooltip-arrow-height;
-
     &::before {
       position: absolute;
       content: "";
@@ -28,13 +21,10 @@
     }
   }
 }
-
 .bs-tooltip-top {
   padding: $tooltip-arrow-height 0;
-
   .tooltip-arrow {
     bottom: 0;
-
     &::before {
       top: 0;
       border-width: $tooltip-arrow-height ($tooltip-arrow-width / 2) 0;
@@ -42,15 +32,12 @@
     }
   }
 }
-
 .bs-tooltip-right {
   padding: 0 $tooltip-arrow-height;
-
   .tooltip-arrow {
     left: 0;
     width: $tooltip-arrow-height;
     height: $tooltip-arrow-width;
-
     &::before {
       right: 0;
       border-width: ($tooltip-arrow-width / 2) $tooltip-arrow-height ($tooltip-arrow-width / 2) 0;
@@ -58,13 +45,10 @@
     }
   }
 }
-
 .bs-tooltip-bottom {
   padding: $tooltip-arrow-height 0;
-
   .tooltip-arrow {
     top: 0;
-
     &::before {
       bottom: 0;
       border-width: 0 ($tooltip-arrow-width / 2) $tooltip-arrow-height;
@@ -72,15 +56,12 @@
     }
   }
 }
-
 .bs-tooltip-left {
   padding: 0 $tooltip-arrow-height;
-
   .tooltip-arrow {
     right: 0;
     width: $tooltip-arrow-height;
     height: $tooltip-arrow-width;
-
     &::before {
       left: 0;
       border-width: ($tooltip-arrow-width / 2) 0 ($tooltip-arrow-width / 2) $tooltip-arrow-height;
@@ -88,7 +69,6 @@
     }
   }
 }
-
 .bs-tooltip-auto {
   &[x-placement^="top"] {
     @extend .bs-tooltip-top;
@@ -103,8 +83,6 @@
     @extend .bs-tooltip-left;
   }
 }
-
-// Wrapper for the tooltip content
 .tooltip-inner {
   max-width: $tooltip-max-width;
   padding: $tooltip-padding-y $tooltip-padding-x;

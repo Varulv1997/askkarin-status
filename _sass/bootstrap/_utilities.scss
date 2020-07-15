@@ -1,7 +1,4 @@
-// Utilities
-
 $utilities: () !default;
-// stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-merge(
   (
     "align": (
@@ -79,7 +76,6 @@ $utilities: map-merge(
       class: border,
       values: map-merge($theme-colors, ("white": $white))
     ),
-    // Sizing utilities
     "width": (
       property: width,
       class: w,
@@ -132,7 +128,6 @@ $utilities: map-merge(
       class: min-vh,
       values: (100: 100vh)
     ),
-    // Flex utilities
     "flex": (
       responsive: true,
       property: flex,
@@ -228,7 +223,6 @@ $utilities: map-merge(
         last: 6,
       ),
     ),
-    // Margin utilities
     "margin": (
       responsive: true,
       property: margin,
@@ -271,7 +265,6 @@ $utilities: map-merge(
       class: ml,
       values: map-merge($spacers, (auto: auto))
     ),
-    // Negative margin utilities
     "negative-margin": (
       responsive: true,
       property: margin,
@@ -314,7 +307,6 @@ $utilities: map-merge(
       class: ml,
       values: $negative-spacers
     ),
-    // Padding utilities
     "padding": (
       responsive: true,
       property: padding,
@@ -357,7 +349,6 @@ $utilities: map-merge(
       class: pl,
       values: $spacers
     ),
-    // Text
     "font-weight": (
       property: font-weight,
       values: (

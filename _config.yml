@@ -1,5 +1,5 @@
 baseurl: '/askkarin-status'
-exclude: [ 'examples', 'README.md' ]
+exclude: [ 'SECURITY.md', 'README.md' ]
 
 safe: true
 plugins:
