@@ -1,20 +1,10 @@
 icon: /img/font-awesome-svg/solid/stream.svg
-title: Status Page
-description: |
-  An example of an **open-source statically-built status-page**. Be sure to check out the
-  [GitHub Repo](https://github.com/someimportantcompany/status-page) for this project to learn how to set one up for
-  your project, free of charge.
-
-  Benefits include:
-    - Open-source code
-    - Built from a single config file
-    - No Javascript
-    - Responsive design
+title: Ask Karin' Status
 
 status:
   class: bg-dark rounded text-white
   message: >
-    **All looks good!** Then again, this is a static website hosted on [GitHub Pages](https://pages.github.com).
+    **All looks good!** Then again, no incidents reported today, [Linode](http://172.105.91.202/status/).
 
 levels:
   success:
@@ -29,13 +19,13 @@ levels:
 
 components:
   status-page:
-    name: Status-Page
+    name: Ask Karin
     icon: /img/font-awesome-svg/solid/stream.svg
-    url: https://varulv1997.github.io/askkarin-status
+    url: https://ask-karin.com
   github-pages:
-    name: GitHub Pages
+    name: Linode (Frankfurt)
     icon: /img/font-awesome-svg/brands/github.svg
-    url: https://pages.github.com
+    url: http://172.105.91.202/status/
 
 groups:
   aws:
@@ -105,21 +95,21 @@ incidents:
     updates:
       - timestamp: 2020-01-31 17:54
         body: >
-          **Resolved** - Our engineering team has confirmed resolution of the issue affecting Droplet
-          creates and event processing across all regions. All systems should be operating normally
+          **Resolved** - DevOps team has confirmed resolution of the issue affecting Linode
+          nodes and event processing across all regions. All systems should be operating normally
           at this time. If you continue to experience any problems, then please open a ticket with
           our support team. We apologize for any inconvenience, and we appreciate your patience
           throughout this process.
       - timestamp: 2020-01-31 17:07
         body: >
-          **Monitoring** - Our engineering team has identified the cause of issues affecting Droplet
-          creates and event processing, and functionality should be fully restored at this time. Our
+          **Monitoring** - Monitoring team team has identified the cause of issues affecting the HTTPS version
+          and event processing, and functionality should be fully restored at this time. Tge
           team is now monitoring the situation for any further issues. We apologize for the
           inconvenience and will share an update once we have confirmed that the issue is resolved.
       - timestamp: 2020-01-31 16:54
         body: >
-          **Investigating** - Our engineering team is investigating an issue affecting Droplet
-          creates and event processing across all regions. During this time, users may experience
+          **Investigating** - Monitoring team is investigating an issue affecting our Java SDK
+          and event processing across all regions. During this time, users may experience
           intermittent errors or delays while working with resources, such as creating or destroying
-          Droplets. We apologize for the inconvenience and will share an update once we have more
+          orders or reservations. We apologize for the inconvenience and will share an update once we have more
           information.
