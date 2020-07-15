@@ -28,66 +28,66 @@ components:
     url: http://172.105.91.202/status/
 
 groups:
-  aws:
+  apache:
     name: Apache Server
     icon: /img/apache.svg
     components:
-      fargate:
+      nodejs:
         name: NodeJS Server
         icon: /img/nodejs.svg
-      rds:
+      firewall:
         name: Firewall
         icon: /img/firewall.svg
-      cache:
+      database:
         name: Database
         icon: /img/database.svg
-      es:
+      reverseproxy:
         name: Reverse Proxy
         icon: /img/reverseproxy.svg
-      cognito:
+      varnish:
         name: Varnish Cache
         icon: /img/varnish.svg
-  gcp:
+  runtime:
     name: Runtime software
     icon: /img/runtime.svg
     components:
-      engine:
+      java:
         name: Java JRE
         icon: /img/java.svg
-      run:
+      ubuntu:
         name: Ubuntu system
         icon: /img/ubuntu.svg
-      spanner:
+      python:
         name: Python (Latest)
         icon: /img/python.svg
-      cdn:
+      ruby:
         name: Ruby (Latest)
         icon: /img/ruby.svg
       docker:
-        name: Docker (Latest)
+        name: Docker Env (Latest)
         icon: /img/docker.svg
       github:
         name: Github Repository (Up to date)
         icon: /img/github.svg
-  azure:
+  apis:
     name: APIs Used
     icon: /img/font-awesome-svg/brands/microsoft.svg
     components:
-      active-directory:
+      googlemaps:
         name: Google Maps API
-        icon: /img/azure-svg/Active%20Directory.svg
-      database:
+        icon: /img/googlemaps.svg
+      openweathermap:
         name: Openweathermap API
-        icon: /img/azure-svg/Azure%20Database%20(Generic).svg
-      database-mysql:
+        icon: /img/openweathermap.png
+      paymentgateways:
         name: Payment gateways API
-        icon: /img/azure-svg/Azure%20Database%20for%20MySQL%20servers.svg
-      function-apps:
+        icon: /img/paymentgateways.svg
+      algolia:
         name: Algolia API
-        icon: /img/azure-svg/Function%20Apps.svg
-      general-storage:
+        icon: /img/algolia.svg
+      statustracker:
         name: Status Tracker API
-        icon: /img/azure-svg/General%20Storage.svg
+        icon: /img/statustracker.svg
 
 incidents:
   - title: '[Java] Runtime specific warnings'
