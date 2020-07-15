@@ -18,12 +18,14 @@ status:
 
 levels:
   success:
-    color: '#28A745'
-    label: OK
+    color: '#42b393'
+    label: Running
   warning:
-    color: '#FFC107'
+    color: '#FF2300'
+    label: Warning
   error:
-    color: '#DC3545'
+    color: '#E7002E'
+    label: Outage
 
 components:
   status-page:
