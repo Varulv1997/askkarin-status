@@ -33,7 +33,7 @@ groups:
     icon: /img/aws-svg/General.svg
     components:
       fargate:
-        name: Amplify
+        name: NodeJS Server
         icon: /img/aws-svg/AWS-Amplify.svg
       rds:
         name: Firewall
@@ -45,8 +45,8 @@ groups:
         name: Reverse Proxy
         icon: /img/aws-svg/Amazon-VPC.svg
       cognito:
-        name: Cognito
-        icon: /img/aws-svg/Amazon-Cognito.svg
+        name: Varnish Cache
+        icon: /img/aws-svg/Amazon-Appstream-2.0.svg
   gcp:
     name: Runtime software
     icon: /img/font-awesome-svg/brands/google.svg
