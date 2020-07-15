@@ -4,7 +4,7 @@ title: Ask Karin' Status
 status:
   class: bg-dark rounded text-white
   message: >
-    **All looks good!** Then again, no incidents reported today, [Linode](http://172.105.91.202/status/).
+    **All looks good!** Then again, no incidents reported today, for the environment [Linode](http://172.105.91.202/status/).
 
 levels:
   success:
