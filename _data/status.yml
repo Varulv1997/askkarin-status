@@ -95,7 +95,7 @@ groups:
         name: Search engine API
         icon: /img/algolia.svg
       statustracker:
-        name: Status Tracker API
+        name: Status tracker API
         icon: /img/statustracker.svg
 
 incidents:
