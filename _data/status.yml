@@ -35,9 +35,9 @@ groups:
       nodejs:
         name: JavaScript runtime server
         icon: /img/nodejs.svg
-      firewall:
-        name: Firewall
-        icon: /img/firewall.svg
+      javascriptgenerator:
+        name: JavaScript generator
+        icon: /img/gatsby.svg
       database:
         name: Database agent
         icon: /img/database.svg
@@ -63,9 +63,9 @@ groups:
       ruby:
         name: Ruby (Latest)
         icon: /img/ruby.svg
-      nginx:
-        name: NGINX
-        icon: /img/nginx.svg
+      django:
+        name: Django
+        icon: /img/django.svg
       documentation:
         name: Documentation
         icon: /img/documentation.svg        
