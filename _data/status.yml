@@ -64,7 +64,7 @@ groups:
         name: Ruby (Latest)
         icon: /img/ruby.svg
       django:
-        name: Django
+        name: Django (Latest)
         icon: /img/django.svg
       documentation:
         name: Documentation
