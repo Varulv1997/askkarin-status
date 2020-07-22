@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="my-5">
-  <h3>History</h3>
+  <h3 class="historysvg">History</h3>
   {%- assign grouped = site.data.status.incidents | group_by_exp:"row","row.timestamp | default: row.updates[0].timestamp | date: '%B %Y'" -%}
 
   {%- assign dates = site.time | date: '%B %Y' -%}

@@ -14,7 +14,7 @@ layout: default
 {%- include current-status.html -%}
 {%- include current-components.html -%}
 <section class="my-5 incidents">
-  <h3>Past Incidents</h3>
+  <h3 class="incidentssvg">Past Incidents</h3>
   {%- assign grouped = site.data.status.incidents | group_by_exp:"row","row.timestamp | default: row.updates[0].timestamp | date: '%F'" -%}
   {%- assign dates = site.time | date: '%F' -%}
   {%- for n in (1..14) -%}
