@@ -8,7 +8,7 @@ status:
 
 levels:
   success:
-    color: '#42b393'
+    color: '#42afaf'
     label: Running
   warning:
     color: '#FF2300'
