@@ -33,15 +33,18 @@
         <small>
           {%- if page.url == "/" -%}
             <a href="{{ '/history' | relative_url }}" class="text-secondary text-decoration-none">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#2A2731" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2A2731" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
 			History</a>
           {%- else -%}
-            <a href="{{ '/' | relative_url }}" class="text-secondary text-decoration-none">Current</a>
+            <a href="{{ '/' | relative_url }}" class="text-secondary text-decoration-none">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2A2731" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+			Current</a>
           {%- endif -%}
         </small>
         <small>
           <a href="https://github.com/Varulv1997" class="text-secondary text-decoration-none">
-            Developed by <strong>Anas Gamrani</strong>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-terminal"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>           
+		   Developed by <strong>Anas Gamrani</strong>
           </a>
         </small>
       </footer>
