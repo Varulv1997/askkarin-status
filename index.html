@@ -25,7 +25,7 @@ layout: default
   {%- for day in dates -%}
   {%- assign group = grouped | where: "name", day | first -%}
   <div class="mt-4">
-    <h4 class="border-bottom">
+    <h4 class="border-bottom svgguy">
       {{ day | date: "%b %e" }}
       {%- assign formal = day | date: "%d" -%}
       {%- if formal == "01" -%}st{%- elsif formal == "02" -%}nd{%- elsif formal == "03" -%}rd{%- else -%}th{%- endif -%}
