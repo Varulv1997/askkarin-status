@@ -71,7 +71,7 @@ groups:
         icon: /img/documentation.png
       git:
         name: Git (Latest)
-        icon: /img/git.svg
+        icon: /img/git.png
       gitlab:
         name: Gitlab DevOps (running)
         icon: /img/gitlab.svg        
