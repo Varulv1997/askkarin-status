@@ -68,7 +68,7 @@ groups:
         icon: /img/django.svg
       documentation:
         name: Documentation
-        icon: /img/documentation.png      
+        icon: /img/documentation.png
       git:
         name: Git (Latest)
         icon: /img/git.svg
