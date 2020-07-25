@@ -73,7 +73,7 @@ groups:
         name: Git (Latest)
         icon: /img/git.svg
       gitlab:
-        name: Gitlab backup repository (up to date)
+        name: Gitlab DevOps (running)
         icon: /img/gitlab.svg        
       github:
         name: Github repository (up to date)
