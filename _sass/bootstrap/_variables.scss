@@ -38,7 +38,7 @@ $pink:    #faae8a !default;
 $red:     #da0037 !default;
 $black:  #faae8a !default;
 $stone:  #faae8a !default;
-$alive:   #42afaf !default;
+$emerald:   #42afaf !default;
 $pale:    #2a2731 !default;
 $tolerant:    #2a2731 !default;
 
@@ -50,7 +50,7 @@ $colors: (
   "red":        $red,
   "black":     $black,
   "stone":     $stone,
-  "alive":      $alive,
+  "emerald":      $emerald,
   "pale":       $pale,
   "tolerant":       $tolerant,
   "white":      $white,
@@ -60,7 +60,7 @@ $colors: (
 
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
-$success:       $alive !default;
+$success:       $emerald !default;
 $info:          $tolerant !default;
 $warning:       $stone !default;
 $danger:        $red !default;
@@ -159,15 +159,15 @@ $stone-700: shade-color($stone, 4) !default;
 $stone-800: shade-color($stone, 6) !default;
 $stone-900: shade-color($stone, 8) !default;
 
-$alive-100: tint-color($alive, 8) !default;
-$alive-200: tint-color($alive, 6) !default;
-$alive-300: tint-color($alive, 4) !default;
-$alive-400: tint-color($alive, 2) !default;
-$alive-500: $alive !default;
-$alive-600: shade-color($alive, 2) !default;
-$alive-700: shade-color($alive, 4) !default;
-$alive-800: shade-color($alive, 6) !default;
-$alive-900: shade-color($alive, 8) !default;
+$emerald-100: tint-color($emerald, 8) !default;
+$emerald-200: tint-color($emerald, 6) !default;
+$emerald-300: tint-color($emerald, 4) !default;
+$emerald-400: tint-color($emerald, 2) !default;
+$emerald-500: $emerald !default;
+$emerald-600: shade-color($emerald, 2) !default;
+$emerald-700: shade-color($emerald, 4) !default;
+$emerald-800: shade-color($emerald, 6) !default;
+$emerald-900: shade-color($emerald, 8) !default;
 
 $pale-100: tint-color($pale, 8) !default;
 $pale-200: tint-color($pale, 6) !default;
