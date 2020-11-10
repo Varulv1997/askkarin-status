@@ -11,10 +11,10 @@ levels:
     color: '#42afaf'
     label: Running
   warning:
-    color: '#FF2300'
+    color: '#faae8a'
     label: Warning
   error:
-    color: '#E7002E'
+    color: '#da0037'
     label: Outage
 
 components:

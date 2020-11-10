@@ -2,9 +2,9 @@
 {%- assign statusColor = site.data.status.status.color
     | default: site.data.status.levels[site.data.status.status.level].color
     | default: defaultLevel[1].color
-    | default: '#28A78E' -%}
+    | default: '#2a2731' -%}
 {%- if site.data.status.status -%}
-<div class="current-status rounded my-5 p-3 {{ site.data.status.status.class }}" style="background-color:#34323a !important;">
+<div class="current-status rounded my-5 p-3 {{ site.data.status.status.class }}" style="background-color:#2a2731 !important;">
   <div class="mkdwn">
     {%- if site.data.status.status.message -%}
     {{ site.data.status.status.message | markdownify }}

@@ -9,7 +9,7 @@
     "color": "{{ site.data.status.status.color
         | default: site.data.status.levels[site.data.status.status.level].color
         | default: defaultLevel[1].color
-        | default: '#28A745' | xml_escape }}",
+        | default: '#2a2731' | xml_escape }}",
     "message": "{{ site.data.status.status.message | default: site.data.status.status | markdownify | xml_escape | strip }}"
   }
   {% else %}
